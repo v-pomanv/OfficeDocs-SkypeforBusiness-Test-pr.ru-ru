@@ -1,6 +1,6 @@
 ﻿---
-title: Настройка единой системы обмена сообщениями на сервере Microsoft Exchange в Lync Server 2013
-TOCTitle: Настройка единой системы обмена сообщениями на сервере Microsoft Exchange в Lync Server 2013
+title: "Lync Server 2013: настр. единой сист. обм. сообщ. на серв. Microsoft Exchange"
+TOCTitle: "Lync Server 2013: настр. единой сист. обм. сообщ. на серв. Microsoft Exchange"
 ms:assetid: 07547968-c59b-4dde-ace4-9fd286933759
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398129(v=OCS.15)
 ms:contentKeyID: 49308839
@@ -135,8 +135,11 @@ _**Дата изменения раздела:** 2016-12-08_
     
     > [!NOTE]  
     > В качестве <strong>SIPResourceIdentifier</strong> в следующем примере должен использоваться адрес SIP пользователя Lync Server.    
-        enable-ummailbox -id <user name> -ummailboxpolicy <name of the mailbox policy for the dial plan created in step 1> -Extensions <extension> -SIPResourceIdentifier "<user name>@<full domain name>" -PIN <user pin>
     
+    ```
+        enable-ummailbox -id <user name> -ummailboxpolicy <name of the mailbox policy for the dial plan created in step 1> -Extensions <extension> -SIPResourceIdentifier "<user name>@<full domain name>" -PIN <user pin>
+    ```
+
     Для получения дополнительных сведений см.:
     
       - Для Exchange 2007 см. "Enable-UMMailbox: справка по Exchange 2007" по адресу [http://go.microsoft.com/fwlink/?linkid=268691\&clcid=0x419](http://go.microsoft.com/fwlink/?linkid=268691%26clcid=0x419).
